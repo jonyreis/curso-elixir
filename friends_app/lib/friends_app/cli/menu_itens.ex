@@ -3,10 +3,10 @@ defmodule FriendsApp.CLI.MenuItens do
 
     def all do
         [
-            %Menu{ label: "Cadastrar um amnigo", id: :create},
-            %Menu{ label: "Listar os amnigo", id: :read},
-            %Menu{ label: "Atualizar amnigo", id: :update},
-            %Menu{ label: "Excluir um amnigo", id: :delete},
+            %Menu{ label: "Cadastrar um amigo", id: :create},
+            %Menu{ label: "Listar amigos", id: :read},
+            %Menu{ label: "Atualizar um amigo", id: :update},
+            %Menu{ label: "Excluir um amigo", id: :delete},
         ]
     end
 end
