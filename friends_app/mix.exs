@@ -20,6 +20,6 @@ defmodule FriendsApp.MixProject do
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
-    [{:nimble_csv, "~> 1.0"}]
+    [{:nimble_csv, "~> 1.0"}, {:faker, "~> 0.15"}]
   end
 end
