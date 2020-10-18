@@ -1,5 +1,5 @@
 defmodule FriendsApp do
-  def hello do
-    :world
+  def init do
+    FriendsApp.CLI.Main.start_app
   end
 end
