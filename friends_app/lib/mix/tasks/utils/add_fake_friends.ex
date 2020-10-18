@@ -15,7 +15,7 @@ defmodule Mix.Tasks.Utils.AddFakeFriends do
     end
 
     defp create_friends(list, count) when count <= 1 do
-        list ++ [ random_list_friend ]
+        list ++ [random_list_friend]
     end
 
     defp create_friends(list, count) do
@@ -33,7 +33,7 @@ defmodule Mix.Tasks.Utils.AddFakeFriends do
     end
 
     defp save_csv_file(data) do
-        Application.fetch_env(:friends_app, :csv_file_path)
+        Application.fetch_env!(:friends_app, :csv_file_path)
         |> File.write!(data, [:append])
     end
 end
